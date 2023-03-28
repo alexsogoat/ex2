@@ -1,4 +1,4 @@
-package entity;
+package kr.ac.poly.ex2.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -6,6 +6,7 @@ import lombok.*;
 @Entity
 @Table(name = "tbl_memo")
 @Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
